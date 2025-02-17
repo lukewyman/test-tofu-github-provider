@@ -1,8 +1,0 @@
-apiVersion: v1
-kind: Service
-metadata:
-  name: mongodb
-  namespace: karaoke
-spec:
-  type: ExternalName
-  externalName: mongodb://user:pass@song-library
